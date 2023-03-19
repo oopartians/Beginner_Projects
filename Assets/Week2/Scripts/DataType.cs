@@ -4,14 +4,18 @@ using UnityEngine;
 
 public class DataType : MonoBehaviour
 {
-    // Start is called before the first frame update
+    // Duplicate code line: ctrl + d
+    // code line comment: ctrl + k + c
+    // code line uncomment: ctrl + k + u
     void Start()
     {
         Datatype_Integer();
-        Datatype_FloatingPoint();
-        Datatype_Character();
-        Datatype_String();
-        Datatype_Boolean();
+        //Datatype_FloatingPoint();
+        //Datatype_Character();
+        //Datatype_String();
+        //Datatype_Boolean();
+        //Datatype_TypeCast();
+        //Datatype_Default();
     }
 
     void Datatype_Integer()
@@ -38,7 +42,7 @@ public class DataType : MonoBehaviour
         char ch1 = 'A';
         char ch2 = '\n';
 
-        Debug.LogFormat("ch1: {0}, ch2: {1}", ch1, ch2);
+        Debug.LogFormat("ch1: {0}, ch2: {1}New Line!", ch1, ch2);
     }
 
     void Datatype_String()
@@ -58,5 +62,28 @@ public class DataType : MonoBehaviour
         bool isBoolean = true;
 
         Debug.LogFormat("isNumeric: {0}, isBoolean: {1}", isNumeric, isBoolean);
+    }
+
+    void Datatype_TypeCast()
+    {
+        int num1 = 3;
+        float num2 = 3.62f;
+
+        //int num3 = num2;  // Error, need typecasting
+        float num3 = num1;
+
+        Debug.LogFormat("num1 + num2: {0}", num1 + num2);           // By default, the result is a data type with a larger size.
+        Debug.LogFormat("num1 + (int)num2: {0}", num1 + (int)num2); // Not rounding
+
+        Debug.LogFormat("num3: {0}", num3);
+    }
+
+    void Datatype_Default()
+    {
+        int num = new();        // Numeric types' default value is 0
+        string text = null;     // String is reference type, default value is null
+        bool boolean = new();   // Boolean types' default value is false
+
+        Debug.LogFormat("num: {0}, text: {1}, boolean: {2}", num, text, boolean);
     }
 }
