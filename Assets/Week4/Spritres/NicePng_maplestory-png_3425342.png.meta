@@ -103,18 +103,370 @@ TextureImporter:
     forceMaximumCompressionQuality_BC6H_BC7: 0
   spriteSheet:
     serializedVersion: 2
-    sprites: []
+    sprites:
+    - serializedVersion: 2
+      name: Green_Idle_0
+      rect:
+        serializedVersion: 2
+        x: 8
+        y: 3351
+        width: 66
+        height: 52
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8a557b08017b64191a5f8bd86170e0bf
+      internalID: 1061679571
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Green_Idle_1
+      rect:
+        serializedVersion: 2
+        x: 82
+        y: 3351
+        width: 72
+        height: 52
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 10bec8a3096d64540939d4c544a38bb6
+      internalID: -994529903
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Green_Idle_2
+      rect:
+        serializedVersion: 2
+        x: 161
+        y: 3351
+        width: 60
+        height: 53
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1f496108652454c4f9b9906dbfe6d30d
+      internalID: 430426827
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Green_Move_0
+      rect:
+        serializedVersion: 2
+        x: 7
+        y: 3276
+        width: 72
+        height: 53
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a27d845b856c34dd686f705790c5be5b
+      internalID: -334155731
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Green_Move_1
+      rect:
+        serializedVersion: 2
+        x: 87
+        y: 3276
+        width: 66
+        height: 56
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: aca741b0e79dd497aafb9b0128e8e6a8
+      internalID: -1165264916
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Green_Move_2
+      rect:
+        serializedVersion: 2
+        x: 161
+        y: 3276
+        width: 57
+        height: 63
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: da79cfa56e3384e2e9ba8d0ee5122a24
+      internalID: -134123257
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Green_Move_3
+      rect:
+        serializedVersion: 2
+        x: 223
+        y: 3276
+        width: 65
+        height: 70
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3677a7e954c4c4b80ba50ab0673ad8d2
+      internalID: 1399675156
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Green_Move_4
+      rect:
+        serializedVersion: 2
+        x: 297
+        y: 3276
+        width: 65
+        height: 86
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b43ec944f21304299a5dec42e40d1faa
+      internalID: 1726564475
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Green_Move_5
+      rect:
+        serializedVersion: 2
+        x: 374
+        y: 3276
+        width: 64
+        height: 73
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f106a8197421148dc8bfc87e9a1b9aeb
+      internalID: -603963263
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Green_Move_6
+      rect:
+        serializedVersion: 2
+        x: 446
+        y: 3276
+        width: 62
+        height: 48
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 270c2f7f5a31e40d1be6b90b9462ed5a
+      internalID: 1960983843
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Green_Hit_0
+      rect:
+        serializedVersion: 2
+        x: 7
+        y: 3198
+        width: 67
+        height: 72
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 067b447e0784a41799342df27ec3071a
+      internalID: 1723650130
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Green_Die_0
+      rect:
+        serializedVersion: 2
+        x: 6
+        y: 3126
+        width: 66
+        height: 68
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1573a60ff9d4244c396499eec9e48ccd
+      internalID: -1472618263
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Green_Die_1
+      rect:
+        serializedVersion: 2
+        x: 82
+        y: 3126
+        width: 63
+        height: 63
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4a2b79a49fc2946c9904efbc15385279
+      internalID: -1860836927
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Green_Die_2
+      rect:
+        serializedVersion: 2
+        x: 151
+        y: 3126
+        width: 59
+        height: 61
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 69ebae7a36a4643328bf3692c3b5cdbb
+      internalID: 1474426275
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Green_Die_3
+      rect:
+        serializedVersion: 2
+        x: 214
+        y: 3126
+        width: 50
+        height: 56
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9c11b713d658743d4afd676c129c7224
+      internalID: -100025459
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Green_Die_4
+      rect:
+        serializedVersion: 2
+        x: 274
+        y: 3127
+        width: 33
+        height: 42
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 049238476232c41358f9c76966fbaa78
+      internalID: -774570935
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     outline: []
     physicsShape: []
     bones: []
-    spriteID: 
+    spriteID: 20ba94987549048a1951b710e75cd85c
     internalID: 0
     vertices: []
     indices: 
     edges: []
     weights: []
     secondaryTextures: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      Green_Die_0: -1472618263
+      Green_Die_1: -1860836927
+      Green_Die_2: 1474426275
+      Green_Die_3: -100025459
+      Green_Die_4: -774570935
+      Green_Hit_0: 1723650130
+      Green_Idle_0: 1061679571
+      Green_Idle_1: -994529903
+      Green_Idle_2: 430426827
+      Green_Move_0: -334155731
+      Green_Move_1: -1165264916
+      Green_Move_2: -134123257
+      Green_Move_3: 1399675156
+      Green_Move_4: 1726564475
+      Green_Move_5: -603963263
+      Green_Move_6: 1960983843
   spritePackingTag: 
   pSDRemoveMatte: 0
   pSDShowRemoveMatteOption: 0

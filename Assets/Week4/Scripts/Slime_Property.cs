@@ -4,12 +4,12 @@ using UnityEngine;
 
 public class SlimeProp
 {
-    // 필드
-    private string name { get; }
-    private string type { get; }
-    private int hp { get; set; }
-    private int atk { get; }
-    private int dfs { get; }
+    // 필드 + 자동완성 프로퍼티
+    public string name { get; }
+    public string type { get; }
+    public int hp { get; set; }
+    public int atk { get; }
+    public int dfs { get; }
     
     //생성자
     public SlimeProp(string _name, int _hp, int _atk, int _dfs)
@@ -19,16 +19,6 @@ public class SlimeProp
         hp = _hp;
         atk = _atk;
         dfs = _dfs;
-    }
-
-    // getter, setter 삭제
-
-    // 메서드들
-    public void Attack(SlimeProp enemy){
-        Debug.Log($"{name}은(는) {enemy.name}을(를) 공격했다!");
-        int damage = atk - enemy.dfs;
-        enemy.hp -= damage;
-        Debug.Log($"{enemy.name}은(는) {damage}의 피해를 입고 체력이 {enemy.hp}가 되었습니다.");
     }
 
     public bool IsDead(){

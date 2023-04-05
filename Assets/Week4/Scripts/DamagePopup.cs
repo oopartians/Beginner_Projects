@@ -7,7 +7,9 @@ public class DamagePopup : MonoBehaviour
 {
     public static DamagePopup Create(Vector3 position, int damageAmount)
     {
-        Transform popUpDamageTransform = Instantiate(GameAssets.instance.pfDamagePopup, position, Quaternion.identity);
+        GameObject _go = Resources.Load("Week4/Prefabs/pfDamagePopup") as GameObject;
+        GameObject go = Instantiate(_go, position, Quaternion.identity) ;
+        Transform popUpDamageTransform = go.transform;
 
         DamagePopup popUpDamage = popUpDamageTransform.GetComponent<DamagePopup>();
         popUpDamage.SetDamage(damageAmount);
@@ -34,7 +36,8 @@ public class DamagePopup : MonoBehaviour
 
     private void Update()
     {
-        float moveSpeedY = 20f;
+        // Animation으로 처리 해도 좋다! (결국 하는 행동은 같다)
+        float moveSpeedY = .5f;
         transform.position += new Vector3(0, moveSpeedY) * Time.deltaTime;
 
         disappearTimer -= Time.deltaTime;
